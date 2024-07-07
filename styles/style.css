@@ -265,13 +265,80 @@ nav ul li a {
     text-align: left;
 }
 
-
-
-
-
 /* skills section end */
 
+/* resume section start */
 
+.resume {
+    margin: 150px 0;
+}
+
+.resume .resume-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.resume-container .experiences .e-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experience .ex-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience .ex-subtitle {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 4px 0;
+}
+
+.experience .ex-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* resume section end */
 
 
 
