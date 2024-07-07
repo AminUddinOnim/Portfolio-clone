@@ -337,10 +337,93 @@ nav ul li a {
     margin-top: 20px;
 }
 
-
 /* resume section end */
 
+/* footer section start */
 
+#footer {
+    
+    background: rgb(255, 248, 243);
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px;
+
+}
+
+.footer-container .contact {
+    width: 50%;
+}
+
+.footer-container .contact .contact-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+.footer-container .contact .contact-description {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.contact-icons {
+    width: 120px;
+    height: 24px;
+    margin: 10px 0;
+}
+
+.contact-icons img {
+    cursor: pointer;
+    width: 20px;
+}
+
+
+.footer-container .message {
+    width: 50%;
+}
+
+.footer-container .message .msg-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+input[type="text"] ,input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Open Sans;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+/* footer section end */
 
 
 
